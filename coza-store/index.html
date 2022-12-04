@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div class="header bg-white">
+		<div class="container-main">
+			<div class="header-main">
+				<div class="d-flex justify-content-between align-items-center py-4">
+					<a href="index.html" class="header-logo z-100">
+						<img src=".//images/icons/logo-01.png" alt="" class="logo-header z-100">
+					</a>
+					<div class="header-menu sp">
+						<ion-icon name="menu-outline" class="menu-toggle"></ion-icon>
+					</div>
+					<ul class=" menu-sp d-flex m-0 gap-3">
+						<li class="header-item"><a href="index.html" class="mr-4 header-links ">Home</a></li>
+						<li class="header-item"><a href="product.html" class="mr-4 header-links ">Shop</a></li>
+						<li class="header-item"><a href="news.html" class="mr-4 header-links ">News</a></li>
+						<li class="header-item"><a href="product-info.html" class="mr-4 header-links ">Information</a></li>
+						<li class="header-item"><a href="blog.html" class="mr-4 header-links ">Blog</a></li>
+						<li class="header-item"><a href="contact.html" class="mr-4 header-links ">Contact</a></li>
+					</ul>
+					<div class="d-flex gap-2 show">
+						<ion-icon name="search-outline"></ion-icon>
+						<a href="shopping-card.html">
+							<a href="shopping-card.html">
+								<ion-icon name="calendar-number-outline"></ion-icon>
+							</a>
+						</a>
+						<ion-icon name="build-outline"></ion-icon>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mt-50">
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./images/slide-01.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/slide-02.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/slide-03.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+	</div>
+	<section class="sec-banner mt-50">
+		<div class="container-main">
+			<div class="fied">
+				<a href="#top">
+					<ion-icon class="icon-up" name="caret-up-circle-outline"></ion-icon>
+				</a>
+			</div>
+			<div class="d-flex gap-5 col-sp">
+				<a href="product-info.html"
+					class="sec__banner-content position-relative border border-dark cursor-in overflow-hidden">
+					<img src="./images/banner-01.jpg" alt="" class="zoom-img">
+					<div class="position-absolute top-0 start-0 p-5">
+						<h1 class="fw-bold  text-dark">Women</h1>
+						<p class="mt-2 text-dark">Spring 2022</p>
+					</div>
+				</a>
+				<a href="product-info.html"
+					class="sec__banner-content position-relative border border-dark cursor-in overflow-hidden"><img
+						src="./images/banner-02.jpg" alt="" class="zoom-img">
+					<div class="position-absolute top-0 start-0 p-5">
+						<h1 class="fw-bold  text-dark">Men</h1>
+						<p class="mt-2 text-dark">Sumer 2022</p>
+					</div>
+				</a>
+				<a href="product-info.html"
+					class="sec__banner-content position-relative border border-dark cursor-in overflow-hidden"><img
+						src="./images/banner-03.jpg" alt="" class="zoom-img">
+					<div class="position-absolute top-0 start-0 p-5">
+						<h1 class="fw-bold  text-dark">Accessories</h1>
+						<p class="mt-2 text-dark"> New Trend</p>
+					</div>
+				</a>
+			</div>
+			<div class="title mt-5">PRODUCT OVERVIEW</div>
+		</div>
+	</section>
+	<div id="product-detail " class="pt-60">
+		<div class="container-main">
+			<div class="card-product d-flex justify-content-between align-items-center gap-5 yourclass">
+				<div class="card-content">
+					<div class="position-relative card__product-image">
+						<img src="./images/product-01.jpg" alt="product" class="zoom-img ">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$17.64</div>
+				</div>
+				<div class="card-content">
+					<div class="position-relative  card__product-image"><img src="./images/product-02.jpg" alt="product"
+							class=" zoom-img">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$166.64</div>
+				</div>
+				<div class="card-content">
+					<div class="position-relative  card__product-image"><img src="./images/product-03.jpg" alt="product"
+							class="zoom-img">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$16.634</div>
+				</div>
+				<div class="card-content">
+					<div class="position-relative  card__product-image"><img src="./images/product-04.jpg" alt="product"
+							class="zoom-img">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$66.64</div>
+				</div>
+			</div>
+			<div class="card-product d-flex justify-content-between align-items-center gap-5 my-5 yourclass">
+				<div class="card-content">
+					<div class="position-relative  card__product-image"><img src="./images/product-05.jpg" alt="product"
+							class="zoom-img">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$26.64</div>
+				</div>
+				<div class="card-content">
+					<div class="position-relative  card__product-image"><img src="./images/product-06.jpg" alt="product"
+							class="zoom-img">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$36.64</div>
+				</div>
+				<div class="card-content">
+					<div class="position-relative  card__product-image"><img src="./images/product-07.jpg" alt="product"
+							class="zoom-img">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$76.64</div>
+				</div>
+				<div class="card-content">
+					<div class="position-relative  card__product-image"><img src="./images/product-08.jpg" alt="product"
+							class="zoom-img">
+						<a href="shop-detail.html" class="btn__product-show ">Quick View</a>
+					</div>
+					<div class="d-flex justify-content-between align-items-center mt-2">
+						<div>Esprit Ruffle Shirt</div>
+						<div class="d-flex align-items-center gap-1">
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+							<ion-icon class="icon-heart" name="heart-circle" class="mt-1 text-warning"></ion-icon>
+						</div>
+					</div>
+					<div class="mt-1">$36.64</div>
+				</div>
+			</div>
+			<a href="product.html" class="button btn-load bg-danger text-white">Load More</a>
+		</div>
+	</div>
+	<section class="mt-100">
+		<img src="./images/blog-02.jpg" alt="">
+	</section>
+	<footer id="footer " class="mt-100">
+		<div class="footer-main  bg-dark">
+			<div class="container-main">
+				<div class="d-flex flex-md-row flex-column justify-content-between align-items-start py-5">
+					<div>
+						<div class="fw-bold fs-5 text-white mb-4">CATEGORIES</div>
+						<p class="text-white">Women</p>
+						<p class="text-white">Men</p>
+						<p class="text-white">Shoes</p>
+						<p class="text-white">Watches</p>
+
+					</div>
+					<div>
+						<div class="fw-bold fs-5 text-white mb-4">HELP</div>
+						<p class="text-white">Track Order</p>
+						<p class="text-white">Returns</p>
+						<p class="text-white">Shipping</p>
+						<p class="text-white">FAQs</p>
+					</div>
+					<div class=" w-25">
+						<div class="fw-bold fs-5 text-white mb-4">GET IN TOUCH</div>
+						<p class="text-white ">Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018
+							or
+							call us on (+1) 96 716 6879</p>
+					</div>
+					<div>
+						<div class="fw-bold fs-5 text-white mb-4">NEWSLETTER</div>
+						<input type="text" placeholder="email@example.com"
+							class="border-0 bg-dark border-bottom border-primary mb-4 text-white"><br>
+						<a href="#!"
+							class="btn-subscribe bg-primary text-white border-0 rounded-3  py-3 px-5 text-center ">SUBSCRIBE</a>
+					</div>
+				</div>
+				<div class="d-flex justify-content-center align-items-center mt-5 gap-2 pb-5">
+					<img src="./images/icons/icon-pay-01.png" alt="" style="width: 35px; height:23px">
+					<img src="./images/icons/icon-pay-02.png" alt="" style="width: 35px; height:23px">
+					<img src="./images/icons/icon-pay-03.png" alt="" style="width: 35px; height:23px">
+					<img src="./images/icons/icon-pay-04.png" alt="" style="width: 35px; height:23px">
+					<img src="./images/icons/icon-pay-05.png" alt="" style="width: 35px; height:23px">
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script text="text/javascript">
+		const menu = document.querySelector(".menu-sp")
+		const toggle = document.querySelector(".menu-toggle");
+		toggle.addEventListener("click", function () {
+			menu.classList.toggle("is-show")
+		});
+		document.addEventListener("click", handleClickOutMenu);
+		function handleClickOutMenu(event) {
+			if (!menu.contains(event.target) && !event.target.matches(".menu-toggle")) {
+				menu.classList.remove("is-show")
+			}
+		}
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="./js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+
+</html>

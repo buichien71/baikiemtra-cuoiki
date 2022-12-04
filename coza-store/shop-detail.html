@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Shop-detail</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <div class="header bg-white">
+    <div class="container-main">
+      <div class="header-main">
+        <div class="d-flex justify-content-between align-items-center py-4">
+          <a href="index.html" class="header-logo z-100">
+            <img src=".//images/icons/logo-01.png" alt="" class="logo-header z-100">
+          </a>
+          <div class="header-menu sp">
+            <ion-icon name="menu-outline" class="menu-toggle"></ion-icon>
+          </div>
+          <ul class=" menu-sp d-flex m-0 gap-3">
+            <li class="header-item"><a href="index.html" class="mr-4 header-links ">Home</a></li>
+            <li class="header-item"><a href="product.html" class="mr-4 header-links ">Shop</a></li>
+            <li class="header-item"><a href="news.html" class="mr-4 header-links ">News</a></li>
+            <li class="header-item"><a href="product-info.html" class="mr-4 header-links ">Information</a></li>
+            <li class="header-item"><a href="blog.html" class="mr-4 header-links ">Blog</a></li>
+            <li class="header-item"><a href="contact.html" class="mr-4 header-links ">Contact</a></li>
+          </ul>
+          <div class="d-flex gap-2 show">
+            <ion-icon name="search-outline"></ion-icon>
+            <a href="shopping-card.html">
+              <ion-icon name="calendar-number-outline"></ion-icon>
+            </a>
+            <ion-icon name="build-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fied">
+    <a href="#top">
+      <ion-icon class="icon-up" name="caret-up-circle-outline"></ion-icon>
+    </a>
+  </div>
+  <section class="pt-100">
+    <div class="container-main">
+      <div class="d-flex justify-content-between align-items-start gap-5 col-sp">
+        <div class="d-flex flex-column pc">
+          <img src="./images/product-detail-01.jpg" alt="" style="width: 100px; height: 150px">
+          <img src="./images/product-detail-02.jpg" alt="" style="width: 100px; height: 150px" class="my-4">
+          <img src="./images/product-detail-03.jpg" alt="" style="width: 100px; height: 150px">
+        </div>
+        <div class="w-10 w-50">
+          <img src="./images/product-detail-01.jpg" alt="">
+        </div>
+        <div class="w-50 w-10">
+          <div class="fs-2 ">Lightweight Jacket</div>
+          <p class="fw-bold my-3">$58.79</p>
+          <p>Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.</p>
+          <div class="d-flex align-items-center gap-5">
+            <div>Size</div>
+            <div class="d-flex justify-content-center align-items-center gap-2 mt-3">
+              <button type="submit" id="red" class=" text-dark text-center px-3 py-2">6</button>
+              <button type="submit" id="blue" class=" text-dark text-center px-3 py-2">7</button>
+              <button type="submit" id="green" class=" text-dark text-center px-3 py-2">8</button>
+              <button type="submit" id="yellow" class=" text-dark text-center px-3 py-2">9</button>
+            </div>
+          </div>
+          <div
+            class="mt-4 d-flex align-items-center mt-5 border w-50 py-2 gap-3 rounded-2 bg-danger justify-content-center">
+            <ion-icon class="border py-2 px-2 bg-white" name="remove-outline"></ion-icon>
+            <button class="bg-white border px-3 py-2">1</button>
+            <ion-icon class="border py-2 px-2 bg-white" name="add-outline"></ion-icon>
+          </div>
+          <a href="about.html"
+            class="w-10 border-0 rounded-pill text-center py-4 mt-50 text-white bg-primary d-block w-50">ADD TO
+            CARD</a>
+          <div class="mt-5">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer " class="mt-100">
+    <div class="footer-main  bg-dark">
+      <div class="container-main">
+        <div class="d-flex flex-wrap justify-content-between align-items-start py-5">
+          <div>
+            <div class="fw-bold fs-5 text-white mb-4">CATEGORIES</div>
+            <p class="text-white">Women</p>
+            <p class="text-white">Men</p>
+            <p class="text-white">Shoes</p>
+            <p class="text-white">Watches</p>
+
+          </div>
+          <div>
+            <div class="fw-bold fs-5 text-white mb-4">HELP</div>
+            <p class="text-white">Track Order</p>
+            <p class="text-white">Returns</p>
+            <p class="text-white">Shipping</p>
+            <p class="text-white">FAQs</p>
+          </div>
+          <div class=" w-25">
+            <div class="fw-bold fs-5 text-white mb-4">GET IN TOUCH</div>
+            <p class="text-white ">Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018
+              or
+              call us on (+1) 96 716 6879</p>
+          </div>
+          <div>
+            <div class="fw-bold fs-5 text-white mb-4">NEWSLETTER</div>
+            <input type="text" placeholder="email@example.com"
+              class="border-0 bg-dark border-bottom border-primary mb-4 text-white"><br>
+            <a href="#!"
+              class="btn-subscribe bg-primary text-white border-0 rounded-3  py-3 px-5 text-center ">SUBSCRIBE</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center mt-5 gap-2 pb-5">
+          <img src="./images/icons/icon-pay-01.png" alt="" style="width: 35px; height:23px">
+          <img src="./images/icons/icon-pay-02.png" alt="" style="width: 35px; height:23px">
+          <img src="./images/icons/icon-pay-03.png" alt="" style="width: 35px; height:23px">
+          <img src="./images/icons/icon-pay-04.png" alt="" style="width: 35px; height:23px">
+          <img src="./images/icons/icon-pay-05.png" alt="" style="width: 35px; height:23px">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+  <script text="text/javascript">
+    $('button').click(function () {
+      $('button').removeAttr('style');
+      $(this).css('background-color', $(this).attr("id"));
+    });
+    const menu = document.querySelector(".menu-sp")
+    const toggle = document.querySelector(".menu-toggle");
+    toggle.addEventListener("click", function () {
+      menu.classList.toggle("is-show")
+    });
+    document.addEventListener("click", handleClickOutMenu);
+    function handleClickOutMenu(event) {
+      if (!menu.contains(event.target) && !event.target.matches(".menu-toggle")) {
+        menu.classList.remove("is-show")
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
